@@ -1,0 +1,9 @@
+configuration:
+  server:
+    host: 172.30.246.221
+    port: 9200
+    username: trec
+    password: trec2019
+  elasticsearch:
+    index: trec
+    mapping: article

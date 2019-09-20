@@ -5,7 +5,7 @@ TREC 是美国国家标准技术研究所(NIST)举办的信息检索竞赛。Con
 
 # Our Method
 
-()[https://github.com/nine09/TREC_CAsT_ECNU-ICA/blob/master/pics/our_method.png]
+![](https://github.com/nine09/TREC_CAsT_ECNU-ICA/blob/master/pics/our_method.png)
 
 - TREC CAsT数据的处理脚本放在`Data_processing`.
 - 我们的检索工具：ElasticSearch。处理ElasticSearch所需格式的数据的脚本在`ElasticSearch_data_processing`.
@@ -17,6 +17,9 @@ TREC 是美国国家标准技术研究所(NIST)举办的信息检索竞赛。Con
 - 我们使用WordNet做Query Expansion。具体代码在`key_words.qe`。值得注意的是我们使用上下文中出现的实体（由实体链接得到的）作为本句的检索词，为了能够起到跟踪上下文和query expansion的效果。
 	- 另：由于实体已经被链接到wikipedia的条目，我们可以使用该条目的邻居实体或该条目的属性作为query expansion的一部分。经实验，该方法可以带来一定提高。
 - Rerank：我们使用BERT模型对问答对的相关性建模，按照相关性进行排序。
+
+*其他工具*
+- Google爬虫：为了搜集训练数据。代码和说明在`gspider`文件夹。
 
 # References
 

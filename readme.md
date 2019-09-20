@@ -23,9 +23,9 @@ TREC 是美国国家标准技术研究所(NIST)举办的信息检索竞赛。Con
 
 # References
 
-ElasticSearch:https://www.elastic.co/cn/
-Allennlp:https://allennlp.org/
-tagme:https://tagme.d4science.org/tagme/
-RAKE:https://github.com/csurfer/rake-nltk
-RAKE paper:https://www.researchgate.net/profile/Stuart_Rose/publication/227988510_Automatic_Keyword_Extraction_from_Individual_Documents/links/55071c570cf27e990e04c8bb.pdf
-BERT:https://github.com/google-research/bert
+- ElasticSearch:https://www.elastic.co/cn/
+- Allennlp:https://allennlp.org/
+- tagme:https://tagme.d4science.org/tagme/
+- RAKE:https://github.com/csurfer/rake-nltk
+- RAKE paper:https://www.researchgate.net/profile/Stuart_Rose/publication/227988510_Automatic_Keyword_Extraction_from_Individual_Documents/links/55071c570cf27e990e04c8bb.pdf
+- BERT:https://github.com/google-research/bert
